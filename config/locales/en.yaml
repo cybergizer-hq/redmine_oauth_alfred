@@ -1,0 +1,4 @@
+en:
+  unable_to_obtain_credentials: "Unable to obtain credentials from Alfred."
+  access_denied: "You must allow to use your credentials to enter this site."
+  login_via_alfred: "Login with Alfred"

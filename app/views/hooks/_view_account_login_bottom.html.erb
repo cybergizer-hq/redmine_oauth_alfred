@@ -1,0 +1,9 @@
+<%= stylesheet_link_tag 'buttons', :plugin => 'redmine_alfred' %>
+
+<% if Setting.plugin_redmine_alfred[:oauth_authentification] %>
+  <%= link_to oauth_alfred_path(:back_url => back_url) do %>
+    <%= button_tag :class => 'button-login' do %>
+      <%= content_tag :div, l(:login_via_alfred), :class => 'button-login-text' %>
+    <% end %>
+  <% end %>
+<% end %>

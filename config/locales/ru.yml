@@ -1,0 +1,4 @@
+ru:
+  unable_to_obtain_credentials: "Не удалось получить данные от Alfred."
+  access_denied: "Для корректного входа необходимо разрешить приложению доступ к аккаунту."
+  login_via_alfred: "Войти с помощью Alfred"
