@@ -1,6 +1,6 @@
 require 'redmine'
-require_dependency 'redmine_alfred/hooks'
-require_dependency 'redmine_alfred/account_controller_patch'
+require_relative 'lib/redmine_alfred/hooks'
+require_relative 'lib/redmine_alfred/account_controller_patch'
 
 Redmine::Plugin.register :redmine_alfred do
   name 'Redmine Alfred omniauth plugin'
