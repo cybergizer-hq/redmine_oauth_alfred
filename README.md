@@ -1,5 +1,7 @@
 ## Redmine Alfred omniauth
 
+### Available [redmine](https://hub.docker.com/_/redmine) version: `5.0.3`
+
 ### Installation
 
 Download the plugin and install required gems:
